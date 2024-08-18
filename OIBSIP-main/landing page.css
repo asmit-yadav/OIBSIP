@@ -1,0 +1,351 @@
+ body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            height:100vh;
+            width:100vw;
+        }
+ header::before{
+            background:url('https://source.unsplash.com/random/?/1600X900/Avengers')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 1.0;
+        }
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+             display:flex;
+}
+li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+         section {
+            height: 344px;
+            font-family: 'Bree Serif', serif;
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .sumit
+        {
+        display:flex;
+         align-items: center;
+         margin: 3px 230px;
+        }
+        .sumit li h2
+        {
+          border:2px solid yellow;
+         border-radius:10px;
+         background-color:red;
+        }
+        .sumit li h1
+        {
+        color:red;
+          border:2px solid yellow;
+         border-radius:10px;
+         background-color:yellow;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar .navigation input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .navbar .navigation li:hover
+        {
+        color:red;
+        cursor:pointer;
+        }
+        .antman h3
+        {
+      text-align:center;
+      color:blue;
+      border:2px solid blue;
+      border-radius:5px;
+      cursor:pointer;
+        }
+        .antman h3:hover
+        {
+        background-color:silver;
+        }
+        .latest img
+        {
+
+        margin:0px;
+        display: block;
+            width: 300px;
+            height:400px;
+        }
+        .trend
+        {
+        margin:0px;
+        padding:0px;
+        display:flex;
+        }
+        .name
+        {
+        display:grid;
+        grid-gap: 1rem;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        .name li h2
+        {
+         border:2px solid yellow;
+         border-radius:5px;
+        }
+        .name li h2:hover
+        {
+        background-color:red;
+        cursor:pointer;
+        }
+        .popular img
+        {
+        margin:0px;
+        display: block;
+            width: 300px;
+            height:400px;
+        }
+        .popular
+        {
+        display:grid;
+        grid-gap: 1rem;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        .pos
+        {
+        display:grid;
+        grid-gap: 1rem;
+         grid-template-columns: repeat(5, minmax(100px, 1fr));
+         color:purple;
+         border:2px solid blue;
+         border-radius:5px;
+        }
+        #box1
+        {
+         background-color:silver;
+        }
+         #box2
+        {
+         background-color:silver;
+        }
+         #box3
+        {
+         background-color:silver;
+        }
+         #box4
+        {
+         background-color:silver;
+        }
+         #box5
+        {
+         background-color:silver;
+        }
+         #box1:hover
+        {
+         color:red;
+         background-color:black;
+         cursor:pointer;
+        }
+         #box2:hover
+        {
+         color:red;
+         background-color:black;
+          cursor:pointer;
+        }
+         #box3:hover
+        {
+         color:red;
+         background-color:black;
+          cursor:pointer;
+        }
+         #box4:hover
+        {
+         color:red;
+         background-color:black;
+          cursor:pointer;
+        }
+         #box5:hover
+        {
+         color:red;
+         background-color:black;
+          cursor:pointer;
+        }
+        p{
+        text:bold;
+        color:red;
+        background-color:silver;
+        text-align:center;
+        }
+        /* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  background-color: black;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text:bold;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 16px;
+  background-color: black;
+  font-family: inherit;
+  margin: 0;
+  text:bold;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: black;
+  cursor:pointer;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: center;
+  color: yellow;
+  text-decoration: none;
+  text:bold;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
